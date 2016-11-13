@@ -55,37 +55,6 @@ class LoginController: UIViewController {
         })
     }
     
-    func handleRegister(){
-        guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
-            print("form is valid")
-            return
-        }
-        
-        
-        FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (usr, err) in
-            if let error = err {
-                print(error.localizedDescription)
-            }
-            
-            guard let uid = usr?.uid else {
-                return
-            }
-            
-            //sucessfully authenticated user
-            let ref = FIRDatabase.database().reference(fromURL: "https://gameofchats-2edd2.firebaseio.com/")
-            let userReference = ref.child("users").child(uid)
-            let values = ["name": name, "email": email]
-            userReference.updateChildValues(values, withCompletionBlock: { (errr, ref) in
-                if let error = errr {
-                    print(error.localizedDescription)
-                }
-                self.dismiss(animated: true, completion: nil)
-            })
-            
-        })
-        
-    }
-    
     let nameTextField: UITextField = {
         let tf = UITextField()
         tf.placeholder = "Name"
@@ -122,11 +91,14 @@ class LoginController: UIViewController {
         return tf
     }()
     
-    let profielImageView: UIImageView = {
+    lazy var profielImageView: UIImageView = {
        let imageView = UIImageView()
         imageView.image = #imageLiteral(resourceName: "ceramic-mugshot")
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFill
+        
+        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleProfileViewImage)))
+        imageView.isUserInteractionEnabled = true
         return imageView
     }()
     

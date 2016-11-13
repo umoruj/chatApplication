@@ -22,6 +22,8 @@
 		9C9DFE3B1DC1FF0600F903B2 /* gameofchatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE3A1DC1FF0600F903B2 /* gameofchatsUITests.swift */; };
 		9C9DFE4A1DC205E300F903B2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE491DC205E300F903B2 /* LoginController.swift */; };
 		9CCA36541DD534700012D192 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA36531DD534700012D192 /* NewMessageController.swift */; };
+		9CCE8C471DD5C03C00370129 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE8C461DD5C03C00370129 /* User.swift */; };
+		9CCE8C491DD5F08D00370129 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE8C481DD5F08D00370129 /* LoginController+handlers.swift */; };
 		9CD115531DD3BE6000EF3F00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CD115521DD3BE6000EF3F00 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,8 @@
 		9C9DFE491DC205E300F903B2 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		9CCA36521DD51C270012D192 /* gameofchats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gameofchats.entitlements; sourceTree = "<group>"; };
 		9CCA36531DD534700012D192 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		9CCE8C461DD5C03C00370129 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9CCE8C481DD5F08D00370129 /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
 		9CD115521DD3BE6000EF3F00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADAB882BCDF60B8EE5AF307D /* Pods-gameofchatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gameofchatsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gameofchatsUITests/Pods-gameofchatsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AF79F84BEB04D5D68E0E441A /* Pods-gameofchats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gameofchats.release.xcconfig"; path = "Pods/Target Support Files/Pods-gameofchats/Pods-gameofchats.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 		9C9DFE161DC1FF0500F903B2 /* gameofchats */ = {
 			isa = PBXGroup;
 			children = (
+				9CCE8C451DD5C00600370129 /* Model */,
 				9CCA36521DD51C270012D192 /* gameofchats.entitlements */,
 				9C9DFE481DC205B800F903B2 /* Controller */,
 				9C9DFE171DC1FF0500F903B2 /* AppDelegate.swift */,
@@ -170,8 +175,17 @@
 				9C9DFE491DC205E300F903B2 /* LoginController.swift */,
 				9C9DFE191DC1FF0500F903B2 /* MessageController.swift */,
 				9CCA36531DD534700012D192 /* NewMessageController.swift */,
+				9CCE8C481DD5F08D00370129 /* LoginController+handlers.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		9CCE8C451DD5C00600370129 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CCE8C461DD5C03C00370129 /* User.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		C1645422EF89E65A4A5AC54B /* Frameworks */ = {
@@ -495,7 +509,9 @@
 			files = (
 				9C9DFE1A1DC1FF0500F903B2 /* MessageController.swift in Sources */,
 				9CCA36541DD534700012D192 /* NewMessageController.swift in Sources */,
+				9CCE8C471DD5C03C00370129 /* User.swift in Sources */,
 				9C9DFE4A1DC205E300F903B2 /* LoginController.swift in Sources */,
+				9CCE8C491DD5F08D00370129 /* LoginController+handlers.swift in Sources */,
 				9C9DFE181DC1FF0500F903B2 /* AppDelegate.swift in Sources */,
 				9C9DFE201DC1FF0500F903B2 /* gameofchats.xcdatamodeld in Sources */,
 			);

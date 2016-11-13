@@ -16,14 +16,16 @@ class MessageController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(handleLogout))
-        let image = #imageLiteral(resourceName: "newMessageIcon")
+        let image = #imageLiteral(resourceName: "writeMessage")
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(handleNewMessage))
         
         checkIfUserIsLoggedIn()
     }
     
     func handleNewMessage(){
-        
+        let newMessageController = NewMessageController()
+        let navController = UINavigationController(rootViewController: newMessageController)
+        present(navController, animated: true, completion: nil)
     }
     
     func checkIfUserIsLoggedIn(){
@@ -44,7 +46,6 @@ class MessageController: UITableViewController {
 
     
     func handleLogout() {
-        print("shoe11111")
         do{
             try FIRAuth.auth()?.signOut()
         }catch let logoutError {
