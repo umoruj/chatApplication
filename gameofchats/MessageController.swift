@@ -34,7 +34,6 @@ class MessageController: UITableViewController {
         }else {
             let uid = FIRAuth.auth()?.currentUser?.uid
             FIRDatabase.database().reference().child("users").child(uid!).observeSingleEvent(of: .value, with: { (snapshit) in
-                
                 if let dictionary = snapshit.value as? [String: AnyObject]{
                     self.navigationItem.title = dictionary["name"] as? String
                 }

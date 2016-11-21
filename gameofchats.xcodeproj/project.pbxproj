@@ -21,6 +21,7 @@
 		9C9DFE301DC1FF0600F903B2 /* gameofchatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE2F1DC1FF0600F903B2 /* gameofchatsTests.swift */; };
 		9C9DFE3B1DC1FF0600F903B2 /* gameofchatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE3A1DC1FF0600F903B2 /* gameofchatsUITests.swift */; };
 		9C9DFE4A1DC205E300F903B2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE491DC205E300F903B2 /* LoginController.swift */; };
+		9CA5463E1DE38C6300BC4F7C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA5463D1DE38C6300BC4F7C /* Extensions.swift */; };
 		9CCA36541DD534700012D192 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA36531DD534700012D192 /* NewMessageController.swift */; };
 		9CCE8C471DD5C03C00370129 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE8C461DD5C03C00370129 /* User.swift */; };
 		9CCE8C491DD5F08D00370129 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE8C481DD5F08D00370129 /* LoginController+handlers.swift */; };
@@ -71,6 +72,7 @@
 		9C9DFE3A1DC1FF0600F903B2 /* gameofchatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameofchatsUITests.swift; sourceTree = "<group>"; };
 		9C9DFE3C1DC1FF0600F903B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C9DFE491DC205E300F903B2 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9CA5463D1DE38C6300BC4F7C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9CCA36521DD51C270012D192 /* gameofchats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gameofchats.entitlements; sourceTree = "<group>"; };
 		9CCA36531DD534700012D192 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		9CCE8C461DD5C03C00370129 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		9C9DFE161DC1FF0500F903B2 /* gameofchats */ = {
 			isa = PBXGroup;
 			children = (
+				9CA5463C1DE38C4100BC4F7C /* Helpers */,
 				9CCE8C451DD5C00600370129 /* Model */,
 				9CCA36521DD51C270012D192 /* gameofchats.entitlements */,
 				9C9DFE481DC205B800F903B2 /* Controller */,
@@ -178,6 +181,14 @@
 				9CCE8C481DD5F08D00370129 /* LoginController+handlers.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		9CA5463C1DE38C4100BC4F7C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9CA5463D1DE38C6300BC4F7C /* Extensions.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		9CCE8C451DD5C00600370129 /* Model */ = {
@@ -510,6 +521,7 @@
 				9C9DFE1A1DC1FF0500F903B2 /* MessageController.swift in Sources */,
 				9CCA36541DD534700012D192 /* NewMessageController.swift in Sources */,
 				9CCE8C471DD5C03C00370129 /* User.swift in Sources */,
+				9CA5463E1DE38C6300BC4F7C /* Extensions.swift in Sources */,
 				9C9DFE4A1DC205E300F903B2 /* LoginController.swift in Sources */,
 				9CCE8C491DD5F08D00370129 /* LoginController+handlers.swift in Sources */,
 				9C9DFE181DC1FF0500F903B2 /* AppDelegate.swift in Sources */,
