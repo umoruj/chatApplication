@@ -100,7 +100,14 @@ extension LoginController: UIImagePickerControllerDelegate, UINavigationControll
                 print(error.localizedDescription)
             }
             //self.messageController?.fetchUserAndSetupNavBarTitle()
-            self.messageController?.navigationItem.title = values["name"] as? String
+            //self.messageController?.navigationItem.title = values["name"] as? String
+            let user = User()
+            user.setValuesForKeys(values)
+            //potential crash of keys dpnt match
+            
+            self.messageController?.setupNavBarWithUser(user: user)
+            
+            
             self.dismiss(animated: true, completion: nil)
         })
     }
