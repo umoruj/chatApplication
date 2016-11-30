@@ -20,10 +20,25 @@ class MessageController: UITableViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(handleNewMessage))
         
         checkIfUserIsLoggedIn()
+        
+        observeMessages()
+    }
+    
+    func observeMessages(){
+        let ref = FIRDatabase.database().reference().child("messages")
+        ref.observe(.childAdded, with: {(snapshot) in
+            
+            if let dictionary = snapshot.value as? [String : AnyObject] {
+                let messages = Messsage()
+                messages.setValuesForKeys(dictionary)
+                print(messages.text!)
+            }
+        }, withCancel: nil)
     }
     
     func handleNewMessage(){
         let newMessageController = NewMessageController()
+        newMessageController.messageController = self
         let navController = UINavigationController(rootViewController: newMessageController)
         present(navController, animated: true, completion: nil)
     }
@@ -99,11 +114,12 @@ class MessageController: UITableViewController {
         
         self.navigationItem.titleView = titleView
         
-        titleView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(showChatController)))
+        //titleView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(showChatController)))
     }
     
-    func showChatController(){
+    func showChatControllerForUser(user: User){
         let chatLogControler = ChatLogContoller(collectionViewLayout: UICollectionViewFlowLayout())
+        chatLogControler.user = user
         navigationController?.pushViewController(chatLogControler, animated: true)
     }
 

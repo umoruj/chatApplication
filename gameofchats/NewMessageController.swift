@@ -28,6 +28,7 @@ class NewMessageController: UITableViewController {
             
             if let dictionary = snapshot.value as? [String: AnyObject]{
                 let user = User()
+                user.id = snapshot.key
                 
                 user.setValuesForKeys(dictionary)
                 self.users.append(user)
@@ -57,25 +58,6 @@ class NewMessageController: UITableViewController {
         if let profileImageUrll = user.profileImageUrl {
             
             cell.profileImageView.loadImageUsingCacheWithUrlString(urlString: profileImageUrll)
-//            if let url = URL(string: profileImageUrll){
-//                let urlRequest = URLRequest(url: url)
-//                let session = URLSession.shared
-//                
-//                let task = session.dataTask(with: urlRequest, completionHandler: { (data, response, errorr) in
-//                    
-//                    //download hit an error so lets return out
-//                    if let error = errorr {
-//                        print(error.localizedDescription)
-//                        return
-//                    }
-//                    
-//                    DispatchQueue.main.async {
-//                        cell.profileImageView.image = UIImage(data: data!)
-//                    }
-//                })
-//                task.resume()
-//
-//            }
         }
         
         
@@ -84,6 +66,18 @@ class NewMessageController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 72
+    }
+    
+    
+    
+    var messageController: MessageController?
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        dismiss(animated: true){
+            let user = self.users[indexPath.row]
+            self.messageController?.showChatControllerForUser(user: user)
+            print("dissmissed view controller")
+        }
     }
 
 }
