@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 
 class MessageController: UITableViewController {
+    let cellId = "cellId"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,12 @@ class MessageController: UITableViewController {
         checkIfUserIsLoggedIn()
         
         observeMessages()
+        
+        tableView.register(UserCell.self, forCellReuseIdentifier: cellId)
     }
+    
+    var messages = [Messsage]()
+    var messageDictionary = [String : Messsage]()
     
     func observeMessages(){
         let ref = FIRDatabase.database().reference().child("messages")
@@ -31,9 +37,39 @@ class MessageController: UITableViewController {
             if let dictionary = snapshot.value as? [String : AnyObject] {
                 let messages = Messsage()
                 messages.setValuesForKeys(dictionary)
-                print(messages.text!)
+                
+                if let toId = messages.toId {
+                    self.messageDictionary[toId] = messages
+                    self.messages = Array(self.messageDictionary.values)
+                    self.messages.sort(by: { (message1, message2) -> Bool in
+                        return (message1.timeStamp?.intValue)! > (message2.timeStamp?.intValue)!
+                    })
+                }
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
             }
         }, withCancel: nil)
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return messages.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! UserCell
+        
+        let mess = messages[indexPath.row]
+        
+        cell.mess = mess
+
+        
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 72
     }
     
     func handleNewMessage(){
