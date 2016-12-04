@@ -22,13 +22,49 @@ class MessageController: UITableViewController {
         
         checkIfUserIsLoggedIn()
         
-        observeMessages()
+        //observeMessages()
         
         tableView.register(UserCell.self, forCellReuseIdentifier: cellId)
     }
     
     var messages = [Messsage]()
     var messageDictionary = [String : Messsage]()
+    
+    func observeUserMessages() {
+        guard let uid = FIRAuth.auth()?.currentUser?.uid else {
+            return
+        }
+        
+        let ref = FIRDatabase.database().reference().child("user-messages").child(uid)
+        
+        ref.observe(.childAdded, with: {(snapshot) in
+        
+            let messageId = snapshot.key
+            let messagesReference = FIRDatabase.database().reference().child("messages").child(messageId)
+            
+            messagesReference.observeSingleEvent(of: .value, with: { (snapshots) in
+                
+                if let dictionary = snapshots.value as? [String : AnyObject] {
+                    let messages = Messsage()
+                    messages.setValuesForKeys(dictionary)
+                    
+                    if let toId = messages.toId {
+                        self.messageDictionary[toId] = messages
+                        self.messages = Array(self.messageDictionary.values)
+                        self.messages.sort(by: { (message1, message2) -> Bool in
+                            return (message1.timeStamp?.intValue)! > (message2.timeStamp?.intValue)!
+                        })
+                    }
+                    
+                    DispatchQueue.main.async {
+                        self.tableView.reloadData()
+                    }
+                }
+                
+            }, withCancel: nil)
+            
+        }, withCancel: nil)
+    }
     
     func observeMessages(){
         let ref = FIRDatabase.database().reference().child("messages")
@@ -105,6 +141,12 @@ class MessageController: UITableViewController {
     }
     
     func setupNavBarWithUser(user: User){
+        messages.removeAll()
+        messageDictionary.removeAll()
+        tableView.reloadData()
+        
+        observeUserMessages()
+        
         self.navigationItem.title = user.name
         
         let titleView = UIView()

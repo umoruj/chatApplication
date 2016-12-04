@@ -13,19 +13,7 @@ class UserCell: UITableViewCell {
     
     var mess: Messsage? {
         didSet {
-            if let toId = mess?.toId {
-                let ref = FIRDatabase.database().reference().child("users").child(toId)
-                ref.observeSingleEvent(of: .value, with: { (snapshot) in
-                    
-                    if let dictionary = snapshot.value as? [String: AnyObject] {
-                        self.textLabel?.text = dictionary["name"] as? String
-                        
-                        if let profileImageUrl = dictionary["profileImageUrl"] as? String {
-                            self.profileImageView.loadImageUsingCacheWithUrlString(urlString: profileImageUrl)
-                        }
-                    }
-                }, withCancel: nil)
-            }
+            setupNameAndProfileImage()
             
             //cell.textLabel?.text = mess.toId
             detailTextLabel?.text = mess?.text
@@ -36,6 +24,30 @@ class UserCell: UITableViewCell {
                 dateFormater.dateFormat = "hh:mm:ss a"
                 timeLabel.text = dateFormater.string(from: timeStampValue as Date)
             }
+        }
+    }
+    
+    private func setupNameAndProfileImage(){
+        let chatPartnerId: String?
+        
+        if mess?.fromId == FIRAuth.auth()?.currentUser?.uid {
+            chatPartnerId = mess?.toId
+        }else{
+            chatPartnerId = mess?.fromId
+        }
+        
+        if let id = chatPartnerId {
+            let ref = FIRDatabase.database().reference().child("users").child(id)
+            ref.observeSingleEvent(of: .value, with: { (snapshot) in
+                
+                if let dictionary = snapshot.value as? [String: AnyObject] {
+                    self.textLabel?.text = dictionary["name"] as? String
+                    
+                    if let profileImageUrl = dictionary["profileImageUrl"] as? String {
+                        self.profileImageView.loadImageUsingCacheWithUrlString(urlString: profileImageUrl)
+                    }
+                }
+            }, withCancel: nil)
         }
     }
     
@@ -59,7 +71,7 @@ class UserCell: UITableViewCell {
     
     let timeLabel: UILabel = {
        let label = UILabel()
-        label.text = "HH:MM:SS"
+        //label.text = "HH:MM:SS"
         label.font = UIFont.systemFont(ofSize: 12)
         label.textColor = UIColor.lightGray
         label.translatesAutoresizingMaskIntoConstraints = false
