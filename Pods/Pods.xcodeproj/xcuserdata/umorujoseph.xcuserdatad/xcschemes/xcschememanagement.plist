@@ -14,17 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-gameofchats.xcscheme</key>
+		<key>Pods-fixnbikeChatComponent.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-gameofchatsTests.xcscheme</key>
+		<key>Pods-fixnbikeChatComponentTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-gameofchatsUITests.xcscheme</key>
+		<key>Pods-fixnbikeChatComponentUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,22 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>55E816222742A1FD6C4E952780CFBC82</key>
+		<key>9881924C32380F38F1C76810D63A7F82</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6387A0C0964D48BAFB46DC47B6B5E2CC</key>
+		<key>9CB694AE4BD371F1349C539BF104BFD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D34084BA51AE6EEDC222D05C72C347F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D929847020E2BC37E968C97773E1745C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

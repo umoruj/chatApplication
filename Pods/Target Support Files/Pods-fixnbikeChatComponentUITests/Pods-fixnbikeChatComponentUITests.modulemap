@@ -1,0 +1,6 @@
+framework module Pods_fixnbikeChatComponentUITests {
+  umbrella header "Pods-fixnbikeChatComponentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

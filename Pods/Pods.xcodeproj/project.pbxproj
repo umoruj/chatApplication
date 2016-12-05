@@ -9,31 +9,31 @@
 /* Begin PBXBuildFile section */
 		07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E11E4774E0CF6ACD51B075F08DE4ED /* GTMSessionFetcherLogging.m */; };
 		0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 881F85C1FD862D0C8A1793D789591313 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E8A17BA9661552A4D9A713F59559448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
 		11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 60966D7614499A16ACF3B89C6CEF54FA /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13848309334F8B4AC62DF5BE553F5838 /* Pods-gameofchatsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1546EBDE94A38BA594584C5AF5AEC7 /* Pods-gameofchatsUITests-dummy.m */; };
-		1705CBF73D25BB791AAAC690719355EF /* Pods-gameofchats-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0C8F66847120E647B284553BBBB4C /* Pods-gameofchats-dummy.m */; };
 		1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C552E928DA08B5D034D2D083D185B97 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F9B999DFAA1052294448B64C77434B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		2ECBC462BA99E4DC425E712C182C6A02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
 		2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD524AE336E79E25357419FF923849B /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3594589A3A085B89741C86860979ABC4 /* GoogleToolboxForMac-dummy.m */; };
-		45F4C8DE459EE1E46F9A37E010C437F2 /* Pods-gameofchatsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B112ACD1428F9A3C1EE68E74BC5C788C /* Pods-gameofchatsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B5D1B64738918335D95AECEB586C2F /* Pods-fixnbikeChatComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85CCC867A7331E4C3EC249938D6785C /* Pods-fixnbikeChatComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C6E987093989E1802BF88D863A79D6 /* Pods-fixnbikeChatComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 632358C2DBE1C0E985F34FA2A771BE35 /* Pods-fixnbikeChatComponent-dummy.m */; };
 		4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1744A70A84806F5BFAC97E22D6AA8B21 /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D996B7CFDCB9F47572EE5E8DB9E06DA /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E4CA025F242FBEDA5F1AE92C089A24 /* GTMSessionFetcher.m */; };
-		659E3B07845A2B10A9A8750979188251 /* Pods-gameofchatsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A32446C1754A796AA69D54DAB18D8AF6 /* Pods-gameofchatsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65B56BD3DBC9B81BB008219D0BA735A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */; };
 		6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF8485EF15824CD90C209585EFE730 /* GTMSessionFetcher-dummy.m */; };
+		75A784D7E5CBBEFE92E129F62E455116 /* Pods-fixnbikeChatComponentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8049BA64A2FDADA2080048ADA1E7EADE /* Pods-fixnbikeChatComponentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5365BF867F25357F8BD33DCA46FB6892 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BAF64D41DD21269FB42435EF2A4BBA7 /* Pods-gameofchatsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED22E35B0553B374EE50437CC6548BF /* Pods-gameofchatsTests-dummy.m */; };
-		8C3FCBCEE9873677154E5B727B3DB665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
 		95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5EECF14FDA1D820A42664CB1CB6936 /* GTMSessionFetcherService.m */; };
 		967551D370060AE0F4BC86BA2FE66E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
-		99E525018AA43477019C72C14A48C5B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		A37DE2DC9684F8052FC2C861E70ACAEF /* Pods-fixnbikeChatComponentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEFD6256CC8F1202DA9847C3FC028BB /* Pods-fixnbikeChatComponentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = D71CC8E5927B5D11533BABB317C6D13D /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C6BB61D8F5F830408B511A9623E3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		B800671A672CE2AA020B2279E83768FE /* Pods-fixnbikeChatComponentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D76519106BB1A387193722372DA3BE /* Pods-fixnbikeChatComponentTests-dummy.m */; };
+		B81D0A757348B72D8B654284126BA8F3 /* Pods-fixnbikeChatComponentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2CFE27358A3C02D86EF59C02869953 /* Pods-fixnbikeChatComponentUITests-dummy.m */; };
 		B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A16F23EF27EBC5C87E13682BA1F17CA5 /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D698CBBB95D5C3C251481BF8E264E7B /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9604A990718EBD7E2A17727CBA53744 /* Pods-gameofchats-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F0148F988F25D9FFB5142BBAD59D68 /* Pods-gameofchats-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD3884C2B8D609DFF8CB96E820B51E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
 		D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFA4564938D61DB8B970752528A3711 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8C9FD205B30032C7B982F44DA33297 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 452EDE71DFDD707ABE16D8697957F468 /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,14 +44,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		13184B7D37B4C31A0416DAFA2D3EC1ED /* PBXContainerItemProxy */ = {
+		3E40EA42FDB40BF7E0151AD27FD5504C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C052BEBFBD0AB5218CC64BA3450F6547;
 			remoteInfo = GTMSessionFetcher;
 		};
-		CEC75F2EB2FF580ECE256D61C387C3E8 /* PBXContainerItemProxy */ = {
+		E346C5264D3B262C2202AB6E0B5CB995 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -63,15 +63,15 @@
 /* Begin PBXFileReference section */
 		00E11E4774E0CF6ACD51B075F08DE4ED /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
 		010AFF5B3F4971B363A8A128AD4B282A /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
-		02E602EF1283041B66D1E47F39606D08 /* Pods-gameofchatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gameofchatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		01A66E8C937F4221A509C46FFC64000B /* Pods_fixnbikeChatComponentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fixnbikeChatComponentUITests.framework; path = "Pods-fixnbikeChatComponentUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03839A9B13BF0DA54301C45235BBBCC8 /* Pods-fixnbikeChatComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixnbikeChatComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0438DEA170FCB7B4EDA6FDBF8DCF9FB1 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		067FD3401ECF3564C0CF0815C3A60863 /* Pods-fixnbikeChatComponentUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fixnbikeChatComponentUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0719152E56AA74E6B3BB8EA85B28BC9E /* Pods-fixnbikeChatComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-fixnbikeChatComponent.modulemap"; sourceTree = "<group>"; };
 		0ADEC00FB6BCF9A684C667C226B61AB9 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
 		0BBF8485EF15824CD90C209585EFE730 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
-		0ECDA3D31D3AA36579CB4EC23588CE94 /* Pods-gameofchatsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gameofchatsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		109F38C1F54168D5BA08732D360A815F /* Pods-gameofchatsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gameofchatsUITests-frameworks.sh"; sourceTree = "<group>"; };
 		1744A70A84806F5BFAC97E22D6AA8B21 /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
 		17C3FFD13E832C3740E160E23A8F1643 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
-		184BAC34CB732FF9F2A3B1F8A012A44B /* Pods-gameofchats.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-gameofchats.modulemap"; sourceTree = "<group>"; };
 		190EDB0BFFFF6B27C1A2FD4A85B44C7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19E4CA025F242FBEDA5F1AE92C089A24 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
 		1ACFB4D3DDE36282D514D709AA05348E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
@@ -79,77 +79,69 @@
 		1C552E928DA08B5D034D2D083D185B97 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
 		1D698CBBB95D5C3C251481BF8E264E7B /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		1FAA3421698C0249222EFC2ECA76687E /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		22EF46D17D4E6148A8F4108080D62539 /* Pods-gameofchatsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gameofchatsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23B64DF3009A5622BEEAC08811E4782F /* Pods-gameofchatsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gameofchatsTests-resources.sh"; sourceTree = "<group>"; };
+		263E81B725415D14B16EE7373B9F7046 /* Pods-fixnbikeChatComponentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixnbikeChatComponentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		28628D27033DFFBB9DDAC8E5FDF0B31F /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		286861C5AF22B8320AE458CEB6ACEE6D /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		327903B34A9FA182D93C503960ECB4DA /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
-		34C0C8F66847120E647B284553BBBB4C /* Pods-gameofchats-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gameofchats-dummy.m"; sourceTree = "<group>"; };
 		3594589A3A085B89741C86860979ABC4 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		39F0148F988F25D9FFB5142BBAD59D68 /* Pods-gameofchats-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gameofchats-umbrella.h"; sourceTree = "<group>"; };
+		3C2CFE27358A3C02D86EF59C02869953 /* Pods-fixnbikeChatComponentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fixnbikeChatComponentUITests-dummy.m"; sourceTree = "<group>"; };
 		43001465381F8B08EC4233CB6A4B75B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		452EDE71DFDD707ABE16D8697957F468 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		460692F19638B297DD61974316B786F0 /* Pods-fixnbikeChatComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixnbikeChatComponent.debug.xcconfig"; sourceTree = "<group>"; };
+		4670FCC020FF503A3738DB8239301B68 /* Pods-fixnbikeChatComponentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixnbikeChatComponentTests.release.xcconfig"; sourceTree = "<group>"; };
 		4760DAC0A61258D91DC1524449BC3A53 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		486521594A7E92795AEF8CEDEEC19F63 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
-		4EFEC59C413AC1699DFBDDD833AA2767 /* Pods-gameofchatsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gameofchatsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5365BF867F25357F8BD33DCA46FB6892 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
-		547D990AE6F8833A168D3043324B089D /* Pods_gameofchats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_gameofchats.framework; path = "Pods-gameofchats.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		548B40FD96EA773C1D4409EC653D7B2F /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
-		5795E7E1CB5D66DC316C79C1240270D2 /* Pods-gameofchatsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-gameofchatsUITests.modulemap"; sourceTree = "<group>"; };
-		5E154A3F387243D03BBFFAA75BD95D6B /* Pods-gameofchatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gameofchatsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BF656005444C906BD966FA1265063AB /* Pods-fixnbikeChatComponentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixnbikeChatComponentTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		60966D7614499A16ACF3B89C6CEF54FA /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
-		6D6251983A85F6D4CECF2BAEEDE562B9 /* Pods-gameofchats-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gameofchats-resources.sh"; sourceTree = "<group>"; };
+		632358C2DBE1C0E985F34FA2A771BE35 /* Pods-fixnbikeChatComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fixnbikeChatComponent-dummy.m"; sourceTree = "<group>"; };
+		681E9C6BD6C87FADA14AB683EE56C383 /* Pods-fixnbikeChatComponentUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fixnbikeChatComponentUITests-resources.sh"; sourceTree = "<group>"; };
+		698806BC3991A75F5FC16F68A21EB080 /* Pods-fixnbikeChatComponentUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fixnbikeChatComponentUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D996B7CFDCB9F47572EE5E8DB9E06DA /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
-		73012A29940CF0BDB7F54DEF95493B0D /* Pods-gameofchatsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-gameofchatsTests.modulemap"; sourceTree = "<group>"; };
-		74F7C98243C10902CCE769A56E85433F /* Pods-gameofchats-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gameofchats-frameworks.sh"; sourceTree = "<group>"; };
+		7090187F40CE3A80DA9E02A121931720 /* Pods-fixnbikeChatComponentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixnbikeChatComponentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7791D2CDBF9844C3BB0C0829F607A117 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79D9FF8C4B55D6433FD76C5211FD865F /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
-		7B69189F8E0075E7106AE60C9CBD1EA6 /* Pods_gameofchatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_gameofchatsTests.framework; path = "Pods-gameofchatsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ED22E35B0553B374EE50437CC6548BF /* Pods-gameofchatsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gameofchatsTests-dummy.m"; sourceTree = "<group>"; };
+		7F3CA3F84C8946F2195397F827AE7C11 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8049BA64A2FDADA2080048ADA1E7EADE /* Pods-fixnbikeChatComponentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fixnbikeChatComponentUITests-umbrella.h"; sourceTree = "<group>"; };
 		873937C87FB0E2082CF4CC5A5EF0D8D7 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		87BDCA506784352335B05571E73EFA6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		881F85C1FD862D0C8A1793D789591313 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		8B2C9403B2E107B011EDB9B58F5D6202 /* Pods-fixnbikeChatComponentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fixnbikeChatComponentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C8C9FD205B30032C7B982F44DA33297 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
-		8D1546EBDE94A38BA594584C5AF5AEC7 /* Pods-gameofchatsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gameofchatsUITests-dummy.m"; sourceTree = "<group>"; };
-		8DC30ACEC64C7840C8245909C8BC4DFD /* Pods-gameofchatsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gameofchatsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E1D86EEE90F5BA0519B9E76E5B0B28E /* Pods-gameofchatsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gameofchatsTests-frameworks.sh"; sourceTree = "<group>"; };
 		8FFC706F6C8F95B442878C4186D4D93E /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
 		93347C03E3ABA642BCC61C977BF6CC98 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98392590CE58DE4982B0CF7BA0F8674C /* Pods-fixnbikeChatComponentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-fixnbikeChatComponentTests.modulemap"; sourceTree = "<group>"; };
+		9925E9ACDCE2EA7A53A55DD4CF06FFFE /* Pods-fixnbikeChatComponent-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fixnbikeChatComponent-resources.sh"; sourceTree = "<group>"; };
 		9C5EECF14FDA1D820A42664CB1CB6936 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
-		9CE68952367F2066BB5E21DA8E81E8CD /* Pods-gameofchatsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gameofchatsUITests-resources.sh"; sourceTree = "<group>"; };
 		A16F23EF27EBC5C87E13682BA1F17CA5 /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
 		A180C570D6739F29286FA60F4E376435 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
-		A32446C1754A796AA69D54DAB18D8AF6 /* Pods-gameofchatsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gameofchatsUITests-umbrella.h"; sourceTree = "<group>"; };
-		AC9E9DFEA2479A1EF070470700F4725A /* Pods-gameofchats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gameofchats.debug.xcconfig"; sourceTree = "<group>"; };
+		A2646DC71620B1F650939814B138A7C8 /* Pods-fixnbikeChatComponent-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fixnbikeChatComponent-frameworks.sh"; sourceTree = "<group>"; };
+		AA9B56EF529720BE4141A2F74B7B8AE5 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD524AE336E79E25357419FF923849B /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		ADEFD6256CC8F1202DA9847C3FC028BB /* Pods-fixnbikeChatComponentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fixnbikeChatComponentTests-umbrella.h"; sourceTree = "<group>"; };
 		ADFA4564938D61DB8B970752528A3711 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		B112ACD1428F9A3C1EE68E74BC5C788C /* Pods-gameofchatsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gameofchatsTests-umbrella.h"; sourceTree = "<group>"; };
 		B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BA7A104BB023B3DFCAA87480E4D01B42 /* Pods_gameofchatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_gameofchatsUITests.framework; path = "Pods-gameofchatsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFEB2967E96F46A55087743CC500C32 /* Pods-gameofchatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gameofchatsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B942B37CE14EF55D8966903528AFE1C9 /* Pods_fixnbikeChatComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fixnbikeChatComponentTests.framework; path = "Pods-fixnbikeChatComponentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB6723ECE3224E4820F1DBD37D48239 /* Pods-fixnbikeChatComponent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixnbikeChatComponent-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4755B65FA02DEB6C69A763B992EF0E0 /* Pods-fixnbikeChatComponent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fixnbikeChatComponent-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5E167436B48E1647B1E039CC8DBD890 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		CDD0DF87AA21627FE04039B74D2D5D11 /* Pods-gameofchatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gameofchatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEE8B8CC832012A664D9C61CDED71549 /* Pods-gameofchats-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gameofchats-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0BA9F06045C62DE0B6B01AB69EDE1E3 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34C39B75AE77EC13CF204613ECBFDA /* Pods-fixnbikeChatComponentUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fixnbikeChatComponentUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDFA5CAF17AB650943B58B1D34FB7655 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06373285A4299A25B3D0F3712D4D944 /* Pods-fixnbikeChatComponentTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fixnbikeChatComponentTests-resources.sh"; sourceTree = "<group>"; };
+		D0B85B6770CAC84525703248DF0B7EC3 /* Pods-fixnbikeChatComponentTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fixnbikeChatComponentTests-frameworks.sh"; sourceTree = "<group>"; };
+		D4D76519106BB1A387193722372DA3BE /* Pods-fixnbikeChatComponentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fixnbikeChatComponentTests-dummy.m"; sourceTree = "<group>"; };
 		D71CC8E5927B5D11533BABB317C6D13D /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
-		DA17DED264A85C2813520265065D84F9 /* Pods-gameofchats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gameofchats.release.xcconfig"; sourceTree = "<group>"; };
+		D85CCC867A7331E4C3EC249938D6785C /* Pods-fixnbikeChatComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fixnbikeChatComponent-umbrella.h"; sourceTree = "<group>"; };
+		E17ACC302119C9923F7DF5C79DC2A1DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6C99D520D95DDC8B8C134A98AA123EC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		F26B233641DEE67A3313B230E5BACEC8 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A0CA504BBDFE548EB24AFF3E8C5B30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAFF7E98B303189D299C14B604FA7783 /* Pods-gameofchats-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gameofchats-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF82A157C1CA7EBA3DAB0C6D763DF9FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DC6B3B14D1E1F0679F0663CF9F3312 /* Pods-fixnbikeChatComponentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-fixnbikeChatComponentUITests.modulemap"; sourceTree = "<group>"; };
+		FC0ABC457CB38FDEC0BBCCF39A4FBFDE /* Pods-fixnbikeChatComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fixnbikeChatComponent.release.xcconfig"; sourceTree = "<group>"; };
+		FE78F50D5964CC704052805F417FE421 /* Pods_fixnbikeChatComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fixnbikeChatComponent.framework; path = "Pods-fixnbikeChatComponent.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2559164DA32655CC96FD4F6D42CEA7DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E8A17BA9661552A4D9A713F59559448 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6AE88E96161DE195EAAF0A3B6375EA50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,11 +151,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DAD0932C76C2A379646E1BC2AF8CC03 /* Frameworks */ = {
+		75CBCBDCDE0A3716EB495CE77AA18238 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E525018AA43477019C72C14A48C5B2 /* Foundation.framework in Frameworks */,
+				B3C6BB61D8F5F830408B511A9623E3E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E16B0F1CCADFC23BBD78B90E6811CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3884C2B8D609DFF8CB96E820B51E3E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,45 +175,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E936578F498A894DA7BEDCD42ACCCD06 /* Frameworks */ = {
+		DFAF71B0DBC847B7AF2ABEF09244187B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3FCBCEE9873677154E5B727B3DB665 /* Foundation.framework in Frameworks */,
+				2ECBC462BA99E4DC425E712C182C6A02 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04A7EFEAD50882FD8069EAA833AA0FCC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				05BDF7DE3091998058E62AA7A8C1565F /* Pods-gameofchats */,
-				F2E691BC74BAD70A817B808FBCB9492B /* Pods-gameofchatsTests */,
-				56B4523820C6A2560DAD33E7B6302616 /* Pods-gameofchatsUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		05BDF7DE3091998058E62AA7A8C1565F /* Pods-gameofchats */ = {
-			isa = PBXGroup;
-			children = (
-				87BDCA506784352335B05571E73EFA6D /* Info.plist */,
-				184BAC34CB732FF9F2A3B1F8A012A44B /* Pods-gameofchats.modulemap */,
-				CEE8B8CC832012A664D9C61CDED71549 /* Pods-gameofchats-acknowledgements.markdown */,
-				FAFF7E98B303189D299C14B604FA7783 /* Pods-gameofchats-acknowledgements.plist */,
-				34C0C8F66847120E647B284553BBBB4C /* Pods-gameofchats-dummy.m */,
-				74F7C98243C10902CCE769A56E85433F /* Pods-gameofchats-frameworks.sh */,
-				6D6251983A85F6D4CECF2BAEEDE562B9 /* Pods-gameofchats-resources.sh */,
-				39F0148F988F25D9FFB5142BBAD59D68 /* Pods-gameofchats-umbrella.h */,
-				AC9E9DFEA2479A1EF070470700F4725A /* Pods-gameofchats.debug.xcconfig */,
-				DA17DED264A85C2813520265065D84F9 /* Pods-gameofchats.release.xcconfig */,
-			);
-			name = "Pods-gameofchats";
-			path = "Target Support Files/Pods-gameofchats";
-			sourceTree = "<group>";
-		};
 		07D23093C8B3C2A0BE7F77AE0FB9C940 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,18 +208,6 @@
 			);
 			name = GTMSessionFetcher;
 			path = GTMSessionFetcher;
-			sourceTree = "<group>";
-		};
-		11D9538F1B1FF7301168806AA77057F2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D0BA9F06045C62DE0B6B01AB69EDE1E3 /* GoogleToolboxForMac.framework */,
-				F26B233641DEE67A3313B230E5BACEC8 /* GTMSessionFetcher.framework */,
-				547D990AE6F8833A168D3043324B089D /* Pods_gameofchats.framework */,
-				7B69189F8E0075E7106AE60C9CBD1EA6 /* Pods_gameofchatsTests.framework */,
-				BA7A104BB023B3DFCAA87480E4D01B42 /* Pods_gameofchatsUITests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		1FEA0887530A041F5D20EAF0C94BCA5A /* Frameworks */ = {
@@ -330,24 +290,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		56B4523820C6A2560DAD33E7B6302616 /* Pods-gameofchatsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F8A0CA504BBDFE548EB24AFF3E8C5B30 /* Info.plist */,
-				5795E7E1CB5D66DC316C79C1240270D2 /* Pods-gameofchatsUITests.modulemap */,
-				22EF46D17D4E6148A8F4108080D62539 /* Pods-gameofchatsUITests-acknowledgements.markdown */,
-				8DC30ACEC64C7840C8245909C8BC4DFD /* Pods-gameofchatsUITests-acknowledgements.plist */,
-				8D1546EBDE94A38BA594584C5AF5AEC7 /* Pods-gameofchatsUITests-dummy.m */,
-				109F38C1F54168D5BA08732D360A815F /* Pods-gameofchatsUITests-frameworks.sh */,
-				9CE68952367F2066BB5E21DA8E81E8CD /* Pods-gameofchatsUITests-resources.sh */,
-				A32446C1754A796AA69D54DAB18D8AF6 /* Pods-gameofchatsUITests-umbrella.h */,
-				CDD0DF87AA21627FE04039B74D2D5D11 /* Pods-gameofchatsUITests.debug.xcconfig */,
-				BAFEB2967E96F46A55087743CC500C32 /* Pods-gameofchatsUITests.release.xcconfig */,
-			);
-			name = "Pods-gameofchatsUITests";
-			path = "Target Support Files/Pods-gameofchatsUITests";
-			sourceTree = "<group>";
-		};
 		625E845BBB5E4BB2220B8ED9D7572852 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +302,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GTMSessionFetcher";
+			sourceTree = "<group>";
+		};
+		637C8267EF7263B0609CB739E9120AEC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EA463E0DB2B03D75B2D9556BD7DAA5D /* Pods-fixnbikeChatComponent */,
+				CC52F9328EA42DE260AB66FA17E67E26 /* Pods-fixnbikeChatComponentTests */,
+				9073A2CFD47AA9FFCC7787695EC07810 /* Pods-fixnbikeChatComponentUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		66246FC8E9F3963364408AB4B063D4AD /* Firebase */ = {
@@ -386,8 +338,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				C8AF243CE7777FF9DD8FC193CD7AF919 /* Pods */,
-				11D9538F1B1FF7301168806AA77057F2 /* Products */,
-				04A7EFEAD50882FD8069EAA833AA0FCC /* Targets Support Files */,
+				F78ED9A56A030F672F47CDE3FB7E8993 /* Products */,
+				637C8267EF7263B0609CB739E9120AEC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -407,6 +359,24 @@
 			name = Defines;
 			sourceTree = "<group>";
 		};
+		9073A2CFD47AA9FFCC7787695EC07810 /* Pods-fixnbikeChatComponentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA5CAF17AB650943B58B1D34FB7655 /* Info.plist */,
+				F0DC6B3B14D1E1F0679F0663CF9F3312 /* Pods-fixnbikeChatComponentUITests.modulemap */,
+				698806BC3991A75F5FC16F68A21EB080 /* Pods-fixnbikeChatComponentUITests-acknowledgements.markdown */,
+				CC34C39B75AE77EC13CF204613ECBFDA /* Pods-fixnbikeChatComponentUITests-acknowledgements.plist */,
+				3C2CFE27358A3C02D86EF59C02869953 /* Pods-fixnbikeChatComponentUITests-dummy.m */,
+				067FD3401ECF3564C0CF0815C3A60863 /* Pods-fixnbikeChatComponentUITests-frameworks.sh */,
+				681E9C6BD6C87FADA14AB683EE56C383 /* Pods-fixnbikeChatComponentUITests-resources.sh */,
+				8049BA64A2FDADA2080048ADA1E7EADE /* Pods-fixnbikeChatComponentUITests-umbrella.h */,
+				263E81B725415D14B16EE7373B9F7046 /* Pods-fixnbikeChatComponentUITests.debug.xcconfig */,
+				7090187F40CE3A80DA9E02A121931720 /* Pods-fixnbikeChatComponentUITests.release.xcconfig */,
+			);
+			name = "Pods-fixnbikeChatComponentUITests";
+			path = "Target Support Files/Pods-fixnbikeChatComponentUITests";
+			sourceTree = "<group>";
+		};
 		909FD3061204916261ECADF04F0803EB /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,6 +392,24 @@
 				1ACFB4D3DDE36282D514D709AA05348E /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EA463E0DB2B03D75B2D9556BD7DAA5D /* Pods-fixnbikeChatComponent */ = {
+			isa = PBXGroup;
+			children = (
+				7791D2CDBF9844C3BB0C0829F607A117 /* Info.plist */,
+				0719152E56AA74E6B3BB8EA85B28BC9E /* Pods-fixnbikeChatComponent.modulemap */,
+				C4755B65FA02DEB6C69A763B992EF0E0 /* Pods-fixnbikeChatComponent-acknowledgements.markdown */,
+				BAB6723ECE3224E4820F1DBD37D48239 /* Pods-fixnbikeChatComponent-acknowledgements.plist */,
+				632358C2DBE1C0E985F34FA2A771BE35 /* Pods-fixnbikeChatComponent-dummy.m */,
+				A2646DC71620B1F650939814B138A7C8 /* Pods-fixnbikeChatComponent-frameworks.sh */,
+				9925E9ACDCE2EA7A53A55DD4CF06FFFE /* Pods-fixnbikeChatComponent-resources.sh */,
+				D85CCC867A7331E4C3EC249938D6785C /* Pods-fixnbikeChatComponent-umbrella.h */,
+				460692F19638B297DD61974316B786F0 /* Pods-fixnbikeChatComponent.debug.xcconfig */,
+				FC0ABC457CB38FDEC0BBCCF39A4FBFDE /* Pods-fixnbikeChatComponent.release.xcconfig */,
+			);
+			name = "Pods-fixnbikeChatComponent";
+			path = "Target Support Files/Pods-fixnbikeChatComponent";
 			sourceTree = "<group>";
 		};
 		A73C3EAD1EDFFB7B711C184552FED5A5 /* FirebaseAuth */ = {
@@ -476,6 +464,24 @@
 				0835EE9DF7865FD53D62AC3CF7344542 /* GTMSessionFetcher */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC52F9328EA42DE260AB66FA17E67E26 /* Pods-fixnbikeChatComponentTests */ = {
+			isa = PBXGroup;
+			children = (
+				E17ACC302119C9923F7DF5C79DC2A1DB /* Info.plist */,
+				98392590CE58DE4982B0CF7BA0F8674C /* Pods-fixnbikeChatComponentTests.modulemap */,
+				8B2C9403B2E107B011EDB9B58F5D6202 /* Pods-fixnbikeChatComponentTests-acknowledgements.markdown */,
+				5BF656005444C906BD966FA1265063AB /* Pods-fixnbikeChatComponentTests-acknowledgements.plist */,
+				D4D76519106BB1A387193722372DA3BE /* Pods-fixnbikeChatComponentTests-dummy.m */,
+				D0B85B6770CAC84525703248DF0B7EC3 /* Pods-fixnbikeChatComponentTests-frameworks.sh */,
+				D06373285A4299A25B3D0F3712D4D944 /* Pods-fixnbikeChatComponentTests-resources.sh */,
+				ADEFD6256CC8F1202DA9847C3FC028BB /* Pods-fixnbikeChatComponentTests-umbrella.h */,
+				03839A9B13BF0DA54301C45235BBBCC8 /* Pods-fixnbikeChatComponentTests.debug.xcconfig */,
+				4670FCC020FF503A3738DB8239301B68 /* Pods-fixnbikeChatComponentTests.release.xcconfig */,
+			);
+			name = "Pods-fixnbikeChatComponentTests";
+			path = "Target Support Files/Pods-fixnbikeChatComponentTests";
 			sourceTree = "<group>";
 		};
 		D8187CE1C621454FCEF06491016F1195 /* Core */ = {
@@ -540,22 +546,16 @@
 			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
-		F2E691BC74BAD70A817B808FBCB9492B /* Pods-gameofchatsTests */ = {
+		F78ED9A56A030F672F47CDE3FB7E8993 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF82A157C1CA7EBA3DAB0C6D763DF9FE /* Info.plist */,
-				73012A29940CF0BDB7F54DEF95493B0D /* Pods-gameofchatsTests.modulemap */,
-				4EFEC59C413AC1699DFBDDD833AA2767 /* Pods-gameofchatsTests-acknowledgements.markdown */,
-				0ECDA3D31D3AA36579CB4EC23588CE94 /* Pods-gameofchatsTests-acknowledgements.plist */,
-				7ED22E35B0553B374EE50437CC6548BF /* Pods-gameofchatsTests-dummy.m */,
-				8E1D86EEE90F5BA0519B9E76E5B0B28E /* Pods-gameofchatsTests-frameworks.sh */,
-				23B64DF3009A5622BEEAC08811E4782F /* Pods-gameofchatsTests-resources.sh */,
-				B112ACD1428F9A3C1EE68E74BC5C788C /* Pods-gameofchatsTests-umbrella.h */,
-				5E154A3F387243D03BBFFAA75BD95D6B /* Pods-gameofchatsTests.debug.xcconfig */,
-				02E602EF1283041B66D1E47F39606D08 /* Pods-gameofchatsTests.release.xcconfig */,
+				AA9B56EF529720BE4141A2F74B7B8AE5 /* GoogleToolboxForMac.framework */,
+				7F3CA3F84C8946F2195397F827AE7C11 /* GTMSessionFetcher.framework */,
+				FE78F50D5964CC704052805F417FE421 /* Pods_fixnbikeChatComponent.framework */,
+				B942B37CE14EF55D8966903528AFE1C9 /* Pods_fixnbikeChatComponentTests.framework */,
+				01A66E8C937F4221A509C46FFC64000B /* Pods_fixnbikeChatComponentUITests.framework */,
 			);
-			name = "Pods-gameofchatsTests";
-			path = "Target Support Files/Pods-gameofchatsTests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F79C4E9DB6CA5D98856E840C87FAD75D /* Frameworks */ = {
@@ -577,6 +577,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		056DE7FA26136D74CA06963E2235BBDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B5D1B64738918335D95AECEB586C2F /* Pods-fixnbikeChatComponent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FD88DB8D66AF73795C2A582BDB5E820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A784D7E5CBBEFE92E129F62E455116 /* Pods-fixnbikeChatComponentUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82D993B88C10479096F17ADDEAB85D94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,11 +605,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A44475B2C491BA990908EFC52B9AE4ED /* Headers */ = {
+		96FF171C63B49681190FF31E6DEFC3AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				659E3B07845A2B10A9A8750979188251 /* Pods-gameofchatsUITests-umbrella.h in Headers */,
+				A37DE2DC9684F8052FC2C861E70ACAEF /* Pods-fixnbikeChatComponentTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,22 +625,6 @@
 				C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */,
 				11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */,
 				DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8FABC692CF2DC0ED8819E36435BEC97 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45F4C8DE459EE1E46F9A37E010C437F2 /* Pods-gameofchatsTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7458E3A464BE44821005A14CD4515A7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9604A990718EBD7E2A17727CBA53744 /* Pods-gameofchats-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,43 +645,60 @@
 			);
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
-			productReference = D0BA9F06045C62DE0B6B01AB69EDE1E3 /* GoogleToolboxForMac.framework */;
+			productReference = AA9B56EF529720BE4141A2F74B7B8AE5 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		55E816222742A1FD6C4E952780CFBC82 /* Pods-gameofchats */ = {
+		9881924C32380F38F1C76810D63A7F82 /* Pods-fixnbikeChatComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8F16098DC2C10D31321F25E2776C09C /* Build configuration list for PBXNativeTarget "Pods-gameofchats" */;
+			buildConfigurationList = 64DDE99B7A90C0CA15E344FC8554F12E /* Build configuration list for PBXNativeTarget "Pods-fixnbikeChatComponent" */;
 			buildPhases = (
-				E52B5330E62C8F4DB9596AE0538EA9C5 /* Sources */,
-				E936578F498A894DA7BEDCD42ACCCD06 /* Frameworks */,
-				F7458E3A464BE44821005A14CD4515A7 /* Headers */,
+				7B85521FF41B278D19CCAA26864ACA74 /* Sources */,
+				95E16B0F1CCADFC23BBD78B90E6811CD /* Frameworks */,
+				056DE7FA26136D74CA06963E2235BBDA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9B3D2382C491172C9697D6687C39519 /* PBXTargetDependency */,
-				4D20B0B89006E15064158E6F1151089B /* PBXTargetDependency */,
+				3E822A83CEBC0F213E21337346445A40 /* PBXTargetDependency */,
+				CFBCD49495712D16F901DE00947FC994 /* PBXTargetDependency */,
 			);
-			name = "Pods-gameofchats";
-			productName = "Pods-gameofchats";
-			productReference = 547D990AE6F8833A168D3043324B089D /* Pods_gameofchats.framework */;
+			name = "Pods-fixnbikeChatComponent";
+			productName = "Pods-fixnbikeChatComponent";
+			productReference = FE78F50D5964CC704052805F417FE421 /* Pods_fixnbikeChatComponent.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6387A0C0964D48BAFB46DC47B6B5E2CC /* Pods-gameofchatsUITests */ = {
+		9CB694AE4BD371F1349C539BF104BFD9 /* Pods-fixnbikeChatComponentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F54E517A924105239A00D6D2DC5F1BE /* Build configuration list for PBXNativeTarget "Pods-gameofchatsUITests" */;
+			buildConfigurationList = 464162717FAF41EF420CCCE8B50835E0 /* Build configuration list for PBXNativeTarget "Pods-fixnbikeChatComponentUITests" */;
 			buildPhases = (
-				F395303D77F571A41411B852695AC1BB /* Sources */,
-				7DAD0932C76C2A379646E1BC2AF8CC03 /* Frameworks */,
-				A44475B2C491BA990908EFC52B9AE4ED /* Headers */,
+				66ABBF4B76D3F24E1F3391CF68370987 /* Sources */,
+				DFAF71B0DBC847B7AF2ABEF09244187B /* Frameworks */,
+				0FD88DB8D66AF73795C2A582BDB5E820 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-gameofchatsUITests";
-			productName = "Pods-gameofchatsUITests";
-			productReference = BA7A104BB023B3DFCAA87480E4D01B42 /* Pods_gameofchatsUITests.framework */;
+			name = "Pods-fixnbikeChatComponentUITests";
+			productName = "Pods-fixnbikeChatComponentUITests";
+			productReference = 01A66E8C937F4221A509C46FFC64000B /* Pods_fixnbikeChatComponentUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D34084BA51AE6EEDC222D05C72C347F /* Pods-fixnbikeChatComponentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BB793D227741F69A9EE0D3F6EB048A /* Build configuration list for PBXNativeTarget "Pods-fixnbikeChatComponentTests" */;
+			buildPhases = (
+				8B7DFBEC709D1F7969899EC711BF5ED7 /* Sources */,
+				75CBCBDCDE0A3716EB495CE77AA18238 /* Frameworks */,
+				96FF171C63B49681190FF31E6DEFC3AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-fixnbikeChatComponentTests";
+			productName = "Pods-fixnbikeChatComponentTests";
+			productReference = B942B37CE14EF55D8966903528AFE1C9 /* Pods_fixnbikeChatComponentTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */ = {
@@ -698,24 +715,7 @@
 			);
 			name = GTMSessionFetcher;
 			productName = GTMSessionFetcher;
-			productReference = F26B233641DEE67A3313B230E5BACEC8 /* GTMSessionFetcher.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D929847020E2BC37E968C97773E1745C /* Pods-gameofchatsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7C44BCC555113F75CFCE22E54B4497F3 /* Build configuration list for PBXNativeTarget "Pods-gameofchatsTests" */;
-			buildPhases = (
-				493171D24B105AA59E37DAB6E9F4B5AF /* Sources */,
-				2559164DA32655CC96FD4F6D42CEA7DB /* Frameworks */,
-				D8FABC692CF2DC0ED8819E36435BEC97 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-gameofchatsTests";
-			productName = "Pods-gameofchatsTests";
-			productReference = 7B69189F8E0075E7106AE60C9CBD1EA6 /* Pods_gameofchatsTests.framework */;
+			productReference = 7F3CA3F84C8946F2195397F827AE7C11 /* GTMSessionFetcher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -735,15 +735,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 11D9538F1B1FF7301168806AA77057F2 /* Products */;
+			productRefGroup = F78ED9A56A030F672F47CDE3FB7E8993 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */,
 				C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */,
-				55E816222742A1FD6C4E952780CFBC82 /* Pods-gameofchats */,
-				D929847020E2BC37E968C97773E1745C /* Pods-gameofchatsTests */,
-				6387A0C0964D48BAFB46DC47B6B5E2CC /* Pods-gameofchatsUITests */,
+				9881924C32380F38F1C76810D63A7F82 /* Pods-fixnbikeChatComponent */,
+				9D34084BA51AE6EEDC222D05C72C347F /* Pods-fixnbikeChatComponentTests */,
+				9CB694AE4BD371F1349C539BF104BFD9 /* Pods-fixnbikeChatComponentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -760,11 +760,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		493171D24B105AA59E37DAB6E9F4B5AF /* Sources */ = {
+		66ABBF4B76D3F24E1F3391CF68370987 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BAF64D41DD21269FB42435EF2A4BBA7 /* Pods-gameofchatsTests-dummy.m in Sources */,
+				B81D0A757348B72D8B654284126BA8F3 /* Pods-fixnbikeChatComponentUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B85521FF41B278D19CCAA26864ACA74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C6E987093989E1802BF88D863A79D6 /* Pods-fixnbikeChatComponent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7DFBEC709D1F7969899EC711BF5ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B800671A672CE2AA020B2279E83768FE /* Pods-fixnbikeChatComponentTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,75 +796,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E52B5330E62C8F4DB9596AE0538EA9C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1705CBF73D25BB791AAAC690719355EF /* Pods-gameofchats-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F395303D77F571A41411B852695AC1BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13848309334F8B4AC62DF5BE553F5838 /* Pods-gameofchatsUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D20B0B89006E15064158E6F1151089B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleToolboxForMac;
-			target = 107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */;
-			targetProxy = CEC75F2EB2FF580ECE256D61C387C3E8 /* PBXContainerItemProxy */;
-		};
-		A9B3D2382C491172C9697D6687C39519 /* PBXTargetDependency */ = {
+		3E822A83CEBC0F213E21337346445A40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GTMSessionFetcher;
 			target = C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */;
-			targetProxy = 13184B7D37B4C31A0416DAFA2D3EC1ED /* PBXContainerItemProxy */;
+			targetProxy = 3E40EA42FDB40BF7E0151AD27FD5504C /* PBXContainerItemProxy */;
+		};
+		CFBCD49495712D16F901DE00947FC994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */;
+			targetProxy = E346C5264D3B262C2202AB6E0B5CB995 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B2F47DEA31255341F80B5102FD8ABBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02E602EF1283041B66D1E47F39606D08 /* Pods-gameofchatsTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-gameofchatsTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-gameofchatsTests/Pods-gameofchatsTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_gameofchatsTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -893,6 +858,76 @@
 			};
 			name = Debug;
 		};
+		2FCFDCD0727E740E4038F0E76BCCC8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4670FCC020FF503A3738DB8239301B68 /* Pods-fixnbikeChatComponentTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-fixnbikeChatComponentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixnbikeChatComponentTests/Pods-fixnbikeChatComponentTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_fixnbikeChatComponentTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30ACEF9401E29CF19C6B975725BC0089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0ABC457CB38FDEC0BBCCF39A4FBFDE /* Pods-fixnbikeChatComponent.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-fixnbikeChatComponent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixnbikeChatComponent/Pods-fixnbikeChatComponent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_fixnbikeChatComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3AF861AEADA89A377F12178D493BED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0ADEC00FB6BCF9A684C667C226B61AB9 /* GoogleToolboxForMac.xcconfig */;
@@ -925,44 +960,9 @@
 			};
 			name = Debug;
 		};
-		657CCD1F828641E4923EA3FCF234EBC4 /* Release */ = {
+		5BC1997E40FD06A60C8FF073FAFE6D45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAFEB2967E96F46A55087743CC500C32 /* Pods-gameofchatsUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-gameofchatsUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-gameofchatsUITests/Pods-gameofchatsUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_gameofchatsUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		780A5F74AD5B1F30832162BAC3A7D428 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC9E9DFEA2479A1EF070470700F4725A /* Pods-gameofchats.debug.xcconfig */;
+			baseConfigurationReference = 460692F19638B297DD61974316B786F0 /* Pods-fixnbikeChatComponent.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -975,18 +975,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-gameofchats/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-fixnbikeChatComponent/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-gameofchats/Pods-gameofchats.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-fixnbikeChatComponent/Pods-fixnbikeChatComponent.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_gameofchats;
+				PRODUCT_NAME = Pods_fixnbikeChatComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -994,6 +994,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		739C06FA7C200F5C9B3D3C33C36C3800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7090187F40CE3A80DA9E02A121931720 /* Pods-fixnbikeChatComponentUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-fixnbikeChatComponentUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixnbikeChatComponentUITests/Pods-fixnbikeChatComponentUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_fixnbikeChatComponentUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		881B19BB9961D509DACE94450066151E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1027,6 +1062,41 @@
 			};
 			name = Release;
 		};
+		A91243163B3404D82811635B37657F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263E81B725415D14B16EE7373B9F7046 /* Pods-fixnbikeChatComponentUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-fixnbikeChatComponentUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fixnbikeChatComponentUITests/Pods-fixnbikeChatComponentUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_fixnbikeChatComponentUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B9C7324D0ADEABED7BC7B2D9C608C5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79D9FF8C4B55D6433FD76C5211FD865F /* GTMSessionFetcher.xcconfig */;
@@ -1059,44 +1129,9 @@
 			};
 			name = Debug;
 		};
-		C504B2FF1A60413332A5FB168F9FEB2C /* Release */ = {
+		C5CB9F3DF4BFA0DA0F81529780F81098 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA17DED264A85C2813520265065D84F9 /* Pods-gameofchats.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-gameofchats/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-gameofchats/Pods-gameofchats.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_gameofchats;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E1E04B2A756035D8A477EC91AFA5DBBE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E154A3F387243D03BBFFAA75BD95D6B /* Pods-gameofchatsTests.debug.xcconfig */;
+			baseConfigurationReference = 03839A9B13BF0DA54301C45235BBBCC8 /* Pods-fixnbikeChatComponentTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1109,53 +1144,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-gameofchatsTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-fixnbikeChatComponentTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-gameofchatsTests/Pods-gameofchatsTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-fixnbikeChatComponentTests/Pods-fixnbikeChatComponentTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_gameofchatsTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E7224EFA474A0BB4DD70C28C01DD8C05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDD0DF87AA21627FE04039B74D2D5D11 /* Pods-gameofchatsUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-gameofchatsUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-gameofchatsUITests/Pods-gameofchatsUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_gameofchatsUITests;
+				PRODUCT_NAME = Pods_fixnbikeChatComponentTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1257,29 +1257,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F54E517A924105239A00D6D2DC5F1BE /* Build configuration list for PBXNativeTarget "Pods-gameofchatsUITests" */ = {
+		464162717FAF41EF420CCCE8B50835E0 /* Build configuration list for PBXNativeTarget "Pods-fixnbikeChatComponentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7224EFA474A0BB4DD70C28C01DD8C05 /* Debug */,
-				657CCD1F828641E4923EA3FCF234EBC4 /* Release */,
+				A91243163B3404D82811635B37657F8E /* Debug */,
+				739C06FA7C200F5C9B3D3C33C36C3800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C44BCC555113F75CFCE22E54B4497F3 /* Build configuration list for PBXNativeTarget "Pods-gameofchatsTests" */ = {
+		64DDE99B7A90C0CA15E344FC8554F12E /* Build configuration list for PBXNativeTarget "Pods-fixnbikeChatComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1E04B2A756035D8A477EC91AFA5DBBE /* Debug */,
-				0B2F47DEA31255341F80B5102FD8ABBA /* Release */,
+				5BC1997E40FD06A60C8FF073FAFE6D45 /* Debug */,
+				30ACEF9401E29CF19C6B975725BC0089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8F16098DC2C10D31321F25E2776C09C /* Build configuration list for PBXNativeTarget "Pods-gameofchats" */ = {
+		87BB793D227741F69A9EE0D3F6EB048A /* Build configuration list for PBXNativeTarget "Pods-fixnbikeChatComponentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				780A5F74AD5B1F30832162BAC3A7D428 /* Debug */,
-				C504B2FF1A60413332A5FB168F9FEB2C /* Release */,
+				C5CB9F3DF4BFA0DA0F81529780F81098 /* Debug */,
+				2FCFDCD0727E740E4038F0E76BCCC8AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
