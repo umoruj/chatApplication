@@ -28,15 +28,7 @@ class UserCell: UITableViewCell {
     }
     
     private func setupNameAndProfileImage(){
-        let chatPartnerId: String?
-        
-        if mess?.fromId == FIRAuth.auth()?.currentUser?.uid {
-            chatPartnerId = mess?.toId
-        }else{
-            chatPartnerId = mess?.fromId
-        }
-        
-        if let id = chatPartnerId {
+        if let id = mess?.chatPartnerId() {
             let ref = FIRDatabase.database().reference().child("users").child(id)
             ref.observeSingleEvent(of: .value, with: { (snapshot) in
                 

@@ -16,6 +16,7 @@
 		81699688624CAC2643717193 /* Pods_gameofchats_gameofchatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D228C11609A195DD65D05DDF /* Pods_gameofchats_gameofchatsTests.framework */; };
 		9C51BCE51DF5033F00AF04FC /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE191DC1FF0500F903B2 /* MessageController.swift */; };
 		9C5F5BC71DF51595006ECCF2 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86D7DA1DF083E4006D9157 /* UserCell.swift */; };
+		9C8036991E0C80A2002FDBC2 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8036981E0C80A2002FDBC2 /* ChatMessageCell.swift */; };
 		9C9DFE181DC1FF0500F903B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE171DC1FF0500F903B2 /* AppDelegate.swift */; };
 		9C9DFE1D1DC1FF0500F903B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9DFE1B1DC1FF0500F903B2 /* Main.storyboard */; };
 		9C9DFE201DC1FF0500F903B2 /* fixnbikeChatComponent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE1E1DC1FF0500F903B2 /* fixnbikeChatComponent.xcdatamodeld */; };
@@ -64,6 +65,7 @@
 		7BBDA33C8FF19F79AEB33407 /* Pods-fixnbikeChatComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fixnbikeChatComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-fixnbikeChatComponent/Pods-fixnbikeChatComponent.release.xcconfig"; sourceTree = "<group>"; };
 		8DF8085DE815036E7184CC7A /* Pods_gameofchatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gameofchatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8964A961F11C6E62A2DD64 /* Pods_gameofchats_gameofchatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gameofchats_gameofchatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8036981E0C80A2002FDBC2 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		9C86D7DA1DF083E4006D9157 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		9C9DFE141DC1FF0500F903B2 /* fixnbikeChatComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fixnbikeChatComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9DFE171DC1FF0500F903B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				9C86D7DA1DF083E4006D9157 /* UserCell.swift */,
+				9C8036981E0C80A2002FDBC2 /* ChatMessageCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				9C9DFE4A1DC205E300F903B2 /* LoginController.swift in Sources */,
 				9CCE8C491DD5F08D00370129 /* LoginController+handlers.swift in Sources */,
 				9C9DFE181DC1FF0500F903B2 /* AppDelegate.swift in Sources */,
+				9C8036991E0C80A2002FDBC2 /* ChatMessageCell.swift in Sources */,
 				9C5F5BC71DF51595006ECCF2 /* UserCell.swift in Sources */,
 				9C9DFE201DC1FF0500F903B2 /* fixnbikeChatComponent.xcdatamodeld in Sources */,
 			);
