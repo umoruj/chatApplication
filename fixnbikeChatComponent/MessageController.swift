@@ -22,8 +22,6 @@ class MessageController: UITableViewController {
         
         checkIfUserIsLoggedIn()
         
-        //observeMessages()
-        
         tableView.register(UserCell.self, forCellReuseIdentifier: cellId)
     }
     
@@ -55,38 +53,21 @@ class MessageController: UITableViewController {
                             return (message1.timeStamp?.intValue)! > (message2.timeStamp?.intValue)!
                         })
                     }
-                    
-                    DispatchQueue.main.async {
-                        self.tableView.reloadData()
-                    }
+                    self.timer?.invalidate()
+                    self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.handleReloadTable), userInfo: nil, repeats: false)
                 }
                 
             }, withCancel: nil)
             
         }, withCancel: nil)
     }
+    var timer: Timer?
     
-    func observeMessages(){
-        let ref = FIRDatabase.database().reference().child("messages")
-        ref.observe(.childAdded, with: {(snapshot) in
-            
-            if let dictionary = snapshot.value as? [String : AnyObject] {
-                let messages = Messsage()
-                messages.setValuesForKeys(dictionary)
-                
-                if let toId = messages.toId {
-                    self.messageDictionary[toId] = messages
-                    self.messages = Array(self.messageDictionary.values)
-                    self.messages.sort(by: { (message1, message2) -> Bool in
-                        return (message1.timeStamp?.intValue)! > (message2.timeStamp?.intValue)!
-                    })
-                }
-                
-                DispatchQueue.main.async {
-                    self.tableView.reloadData()
-                }
-            }
-        }, withCancel: nil)
+    func handleReloadTable(){
+        DispatchQueue.main.async {
+            print("We reloaded the table")
+            self.tableView.reloadData()
+        }
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
