@@ -80,7 +80,7 @@ class ChatLogContoller: UICollectionViewController, UITextFieldDelegate, UIColle
     
     func handleBackButton(){
         self.inputTextField.resignFirstResponder()
-        self.navigationController?.popViewController(animated: true)
+        _ = self.navigationController?.popViewController(animated: true)
         
     }
     

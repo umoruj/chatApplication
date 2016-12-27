@@ -20,7 +20,7 @@ extension LoginController: UIImagePickerControllerDelegate, UINavigationControll
         present(picker, animated: true, completion: nil)
     }
     
-    private func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         //if let editedImage = info
         var selectedImageFromPicker: UIImage?
         
@@ -55,7 +55,7 @@ extension LoginController: UIImagePickerControllerDelegate, UINavigationControll
         
         FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (usr, err) in
             if let error = err {
-                print(error.localizedDescription)
+                self.handleMessageAlerts(errorMessage: error.localizedDescription)
             }
             
             guard let uid = usr?.uid else {
@@ -90,6 +90,12 @@ extension LoginController: UIImagePickerControllerDelegate, UINavigationControll
             
         })
         
+    }
+    
+    func handleMessageAlerts(errorMessage: String) {
+        let alertController = UIAlertController(title: "Free Chat App", message: errorMessage, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
     }
     
     private func registerUserIntoDatabase(uid: String, values: [String : AnyObject]){

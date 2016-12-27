@@ -351,8 +351,8 @@
 				TargetAttributes = {
 					9C9DFE131DC1FF0300F903B2 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 8VP2CK62GJ;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 342TQBE2Q9;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -731,12 +731,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = fixnbikeChatComponent/fixnbikeChatComponent.entitlements;
-				DEVELOPMENT_TEAM = 8VP2CK62GJ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 342TQBE2Q9;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = fixnbikeChatComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.umorujoseph.fixnbikeChatComponent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cb80ea70-3b3f-4cfe-9010-0e8d5a43216b";
+				PROVISIONING_PROFILE_SPECIFIER = "Free Chat";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -747,12 +750,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = fixnbikeChatComponent/fixnbikeChatComponent.entitlements;
-				DEVELOPMENT_TEAM = 8VP2CK62GJ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 342TQBE2Q9;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = fixnbikeChatComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.umorujoseph.fixnbikeChatComponent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cb80ea70-3b3f-4cfe-9010-0e8d5a43216b";
+				PROVISIONING_PROFILE_SPECIFIER = "Free Chat";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

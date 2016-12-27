@@ -50,6 +50,8 @@ class LoginController: UIViewController {
         FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, errror) in
             if let error = errror {
                 print(error.localizedDescription)
+                self.handleMessageAlerts(errorMessage: error.localizedDescription)
+                return
             }
             
             //sucessfully logged in our user
@@ -235,6 +237,7 @@ class LoginController: UIViewController {
         loginRegisterButton.widthAnchor.constraint(equalTo: inputsContainerView.widthAnchor).isActive = true
         loginRegisterButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
     }
+    
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return .lightContent
     }
