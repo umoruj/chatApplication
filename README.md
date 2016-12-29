@@ -5,9 +5,6 @@ The application was built without the use of storyboard as a first for me, and t
 implemented using swift 3.0.1 with Xcode 8.1
 
 Functionalities currently implemented:
-1. Register Users.
-2. User Login.
-3. send messages to Firebase.
-4. Retrieve messages from Firebase.
-5. View messages from both parties dependent on who is logged in.
-6. Support multiple users efficiently.
+1. Register Users via email and password.
+2. User Login via email and password.
+3. Send and recieve messages between users in real time.
