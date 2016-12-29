@@ -16,8 +16,11 @@ login/register interface with profile image upload and send messages between reg
 ######.View list of registered users.
 ![alt tag](https://s20.postimg.org/nzcfc0evx/Simulator_Screen_Shot_Dec_27_2016_6_38_21_AM.png)
 
-######.send messages between registered users.
+######.Send messages between registered users.
 ![alt tag](https://s20.postimg.org/w3kjgr1b1/Simulator_Screen_Shot_Dec_27_2016_6_38_06_AM.png)
+
+######.View list of conversation with registered users.
+![alt tag](https://s20.postimg.org/txq8m8xul/Simulator_Screen_Shot_Dec_27_2016_6_37_54_AM.png)
 
 ######.Delete conversations between users.
 ![alt tag](https://s20.postimg.org/e4la5saxp/Simulator_Screen_Shot_Dec_29_2016_12_44_45_PM.png)
