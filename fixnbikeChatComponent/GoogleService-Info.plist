@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>939287644848-fgbgtoq5hb6c6r73pqsjgfnbq6lb3rv9.apps.googleusercontent.com</string>
+	<string>699925408944-7aumvkstmibm4gqbumo0vk5okcla1vc1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.939287644848-fgbgtoq5hb6c6r73pqsjgfnbq6lb3rv9</string>
+	<string>com.googleusercontent.apps.699925408944-7aumvkstmibm4gqbumo0vk5okcla1vc1</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCUJm78R3jGKkBNp9_-ngSQrElRl7gI8rM</string>
+	<string>AIzaSyDUACSKuPizOQlubbp9ouc2j3eh_Y9s1ZA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>939287644848</string>
+	<string>699925408944</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>net.umorujoseph.gameofchats</string>
+	<string>net.umorujoseph.fixnbikeChatComponent</string>
 	<key>PROJECT_ID</key>
-	<string>gameofchats-2edd2</string>
+	<string>fixnbikechatcomponent</string>
 	<key>STORAGE_BUCKET</key>
-	<string>gameofchats-2edd2.appspot.com</string>
+	<string>fixnbikechatcomponent.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:939287644848:ios:88457d2dd670819a</string>
+	<string>1:699925408944:ios:ca27025c6552ef21</string>
 	<key>DATABASE_URL</key>
-	<string>https://gameofchats-2edd2.firebaseio.com</string>
+	<string>https://fixnbikechatcomponent.firebaseio.com</string>
 </dict>
 </plist>

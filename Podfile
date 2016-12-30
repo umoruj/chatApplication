@@ -9,6 +9,7 @@ target 'fixnbikeChatComponent' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
+  pod 'Firebase/Messaging'
 
   target 'fixnbikeChatComponentTests' do
     inherit! :search_paths

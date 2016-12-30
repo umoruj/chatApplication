@@ -55,6 +55,7 @@ extension LoginController: UIImagePickerControllerDelegate, UINavigationControll
         
         FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (usr, err) in
             if let error = err {
+                print("could not register user:  ")
                 self.handleMessageAlerts(errorMessage: error.localizedDescription)
             }
             
@@ -92,6 +93,7 @@ extension LoginController: UIImagePickerControllerDelegate, UINavigationControll
         
     }
     
+    //show alerts for errors in login and register
     func handleMessageAlerts(errorMessage: String) {
         let alertController = UIAlertController(title: "Free Chat App", message: errorMessage, preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))

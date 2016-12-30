@@ -16,6 +16,7 @@
 		81699688624CAC2643717193 /* Pods_gameofchats_gameofchatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D228C11609A195DD65D05DDF /* Pods_gameofchats_gameofchatsTests.framework */; };
 		9C51BCE51DF5033F00AF04FC /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE191DC1FF0500F903B2 /* MessageController.swift */; };
 		9C5F5BC71DF51595006ECCF2 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86D7DA1DF083E4006D9157 /* UserCell.swift */; };
+		9C6C603D1E1563B9007AD89C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C603C1E1563B9007AD89C /* GoogleService-Info.plist */; };
 		9C8036991E0C80A2002FDBC2 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8036981E0C80A2002FDBC2 /* ChatMessageCell.swift */; };
 		9C9DFE181DC1FF0500F903B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE171DC1FF0500F903B2 /* AppDelegate.swift */; };
 		9C9DFE1D1DC1FF0500F903B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9DFE1B1DC1FF0500F903B2 /* Main.storyboard */; };
@@ -29,7 +30,6 @@
 		9CCCDD011DEDD8DD0053D581 /* Messsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCCDD001DEDD8DD0053D581 /* Messsage.swift */; };
 		9CCE8C471DD5C03C00370129 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE8C461DD5C03C00370129 /* User.swift */; };
 		9CCE8C491DD5F08D00370129 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE8C481DD5F08D00370129 /* LoginController+handlers.swift */; };
-		9CD115531DD3BE6000EF3F00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CD115521DD3BE6000EF3F00 /* GoogleService-Info.plist */; };
 		9CE2EF8E1DF4F6BB003172B7 /* Pods_fixnbikeChatComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE2EF8D1DF4F6BB003172B7 /* Pods_fixnbikeChatComponentTests.framework */; };
 		9CE2EF901DF4F6C3003172B7 /* Pods_fixnbikeChatComponentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE2EF8F1DF4F6C3003172B7 /* Pods_fixnbikeChatComponentUITests.framework */; };
 		9CE426251DF517E7006DC3DC /* fixnbikeChatComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DFE2F1DC1FF0600F903B2 /* fixnbikeChatComponentTests.swift */; };
@@ -65,6 +65,7 @@
 		7BBDA33C8FF19F79AEB33407 /* Pods-fixnbikeChatComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fixnbikeChatComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-fixnbikeChatComponent/Pods-fixnbikeChatComponent.release.xcconfig"; sourceTree = "<group>"; };
 		8DF8085DE815036E7184CC7A /* Pods_gameofchatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gameofchatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8964A961F11C6E62A2DD64 /* Pods_gameofchats_gameofchatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gameofchats_gameofchatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6C603C1E1563B9007AD89C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9C8036981E0C80A2002FDBC2 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		9C86D7DA1DF083E4006D9157 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		9C9DFE141DC1FF0500F903B2 /* fixnbikeChatComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fixnbikeChatComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +90,6 @@
 		9CCCDD001DEDD8DD0053D581 /* Messsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messsage.swift; sourceTree = "<group>"; };
 		9CCE8C461DD5C03C00370129 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9CCE8C481DD5F08D00370129 /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
-		9CD115521DD3BE6000EF3F00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9CE2EF8B1DF4F6AA003172B7 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../Library/Developer/Xcode/DerivedData/fixnbikeChatComponent-cdkpmyiltamiavfilgjwnfdhqlyo/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
 		9CE2EF8D1DF4F6BB003172B7 /* Pods_fixnbikeChatComponentTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_fixnbikeChatComponentTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_fixnbikeChatComponentTests.framework"; sourceTree = "<group>"; };
 		9CE2EF8F1DF4F6C3003172B7 /* Pods_fixnbikeChatComponentUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_fixnbikeChatComponentUITests.framework; path = "Pods/../build/Debug-iphoneos/Pods_fixnbikeChatComponentUITests.framework"; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 				9C9DFE231DC1FF0600F903B2 /* LaunchScreen.storyboard */,
 				9C9DFE261DC1FF0600F903B2 /* Info.plist */,
 				9C9DFE1E1DC1FF0500F903B2 /* fixnbikeChatComponent.xcdatamodeld */,
-				9CD115521DD3BE6000EF3F00 /* GoogleService-Info.plist */,
+				9C6C603C1E1563B9007AD89C /* GoogleService-Info.plist */,
 			);
 			path = fixnbikeChatComponent;
 			sourceTree = "<group>";
@@ -354,7 +354,13 @@
 						DevelopmentTeam = 342TQBE2Q9;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -399,7 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C9DFE251DC1FF0600F903B2 /* LaunchScreen.storyboard in Resources */,
-				9CD115531DD3BE6000EF3F00 /* GoogleService-Info.plist in Resources */,
+				9C6C603D1E1563B9007AD89C /* GoogleService-Info.plist in Resources */,
 				9C9DFE221DC1FF0600F903B2 /* Assets.xcassets in Resources */,
 				9C9DFE1D1DC1FF0500F903B2 /* Main.storyboard in Resources */,
 			);
@@ -750,15 +756,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = fixnbikeChatComponent/fixnbikeChatComponent.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 342TQBE2Q9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = fixnbikeChatComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.umorujoseph.fixnbikeChatComponent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "cb80ea70-3b3f-4cfe-9010-0e8d5a43216b";
-				PROVISIONING_PROFILE_SPECIFIER = "Free Chat";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
