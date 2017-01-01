@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FBSDKLoginKit
 
 class LoginController: UIViewController {
     var messageController: MessageController?
@@ -60,6 +61,94 @@ class LoginController: UIViewController {
         })
     }
     
+    func handleCustomFBLogin(){
+        FBSDKLoginManager().logIn(withReadPermissions: ["email", "public_profile"], from: self) { (result, err) in
+            if let error = err {
+                print("Custom login Failed: ", error.localizedDescription)
+                return
+            }
+            
+            let accessToken = FBSDKAccessToken.current()
+            guard let accessTokenString = accessToken?.tokenString else {
+                return
+            }
+            
+            let credentials = FIRFacebookAuthProvider.credential(withAccessToken: accessTokenString)
+            
+            FIRAuth.auth()?.signIn(with: credentials, completion: { (user, errrorr) in
+                if let error = errrorr {
+                    print("can not sign to Firebase: ", error.localizedDescription)
+                    return
+                }
+                
+                print("successfully logged in as: ",user ?? "")
+                
+                guard let uid = user?.uid else {
+                    return
+                }
+                
+                let dataref = FIRDatabase.database().reference()
+                dataref.child("users").child(uid).observeSingleEvent(of: .value, with: { (snapshottssa) in
+                    let snapshot = snapshottssa.value as? NSDictionary
+                    //print("checked if user is available#####",snapshot)
+                    
+                    if(snapshot == nil){
+                        FBSDKGraphRequest(graphPath: "/me", parameters: ["fields" : "id, name, email"]).start { (connection, result, err) in
+                            if let error = err {
+                                print("Failed to amke graph request: ", error.localizedDescription)
+                                return
+                            }
+                            
+                            guard let dataFromLogin = result as? [String : AnyObject] else {
+                                return
+                            }
+                            print("got data from graph#####",dataFromLogin)
+                            
+                            let nameData = dataFromLogin["name"] as! String
+                            let emailData = dataFromLogin["email"] as! String
+                            
+                            print("name and email from user",nameData, emailData)
+                            
+                            FBSDKGraphRequest(graphPath: "me/picture?type=normal&redirect=false", parameters: nil).start { (connection, result, errorr) in
+                                if let error = errorr {
+                                    print("could not get picture: ", error.localizedDescription)
+                                    return
+                                }
+                                
+                                guard let imageData = result as? [String: AnyObject] else {
+                                    return
+                                }
+                                
+                                print("got picture url from graph", imageData)
+                                
+                                guard let imageURL = imageData["data"] as? NSDictionary else {
+                                    return
+                                }
+                                let picURL = imageURL.object(forKey: "url") as! String
+                                
+                                dataref.child("users").child(uid).child("email").setValue(emailData)
+                                dataref.child("users").child(uid).child("name").setValue(nameData)
+                                dataref.child("users").child(uid).child("profileImageUrl").setValue(picURL)
+                                
+                                
+                                print("successfully retrieved profile pic: ")
+                                //sucessfully logged in our user
+                                self.messageController?.fetchUserAndSetupNavBarTitle()
+                                self.dismiss(animated: true, completion: nil)
+                            }
+                        }
+                    }else {
+                        //sucessfully logged in our user
+                        self.messageController?.fetchUserAndSetupNavBarTitle()
+                        self.dismiss(animated: true, completion: nil)
+                    }
+                })
+            })
+            
+            
+        }
+    }
+    
     let nameTextField: UITextField = {
         let tf = UITextField()
         tf.placeholder = "Name"
@@ -94,6 +183,19 @@ class LoginController: UIViewController {
         tf.translatesAutoresizingMaskIntoConstraints = false
         tf.isSecureTextEntry = true
         return tf
+    }()
+    
+    lazy var customFBButton: UIButton = {
+        let customButtom = UIButton(type: .system)
+        customButtom.backgroundColor = UIColor(r: 59, g: 89, b: 152)
+        customButtom.translatesAutoresizingMaskIntoConstraints = false
+        customButtom.setTitle("login with your Facebook account", for: .normal)
+        customButtom.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        customButtom.setTitleColor(.white, for: .normal)
+        customButtom.addTarget(self, action: #selector(handleCustomFBLogin), for: .touchUpInside)
+        
+        return customButtom
+        
     }()
     
     lazy var profielImageView: UIImageView = {
@@ -155,11 +257,22 @@ class LoginController: UIViewController {
         view.addSubview(loginRegisterButton)
         view.addSubview(profielImageView)
         view.addSubview(loginRegisterSegmentedControl)
+        view.addSubview(customFBButton)
         
         setupInputsContainerView()
         setupLoginResgisterButton()
         setupProfileImageView()
         setupLoginRegisterSegmentedControl()
+        setupCustomFBButtom()
+
+    }
+    
+    func setupCustomFBButtom(){
+        //need x,y width and Height constraints
+        customFBButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        customFBButton.topAnchor.constraint(equalTo: loginRegisterButton.bottomAnchor, constant: 12).isActive = true
+        customFBButton.widthAnchor.constraint(equalTo: inputsContainerView.widthAnchor).isActive = true
+        customFBButton.heightAnchor.constraint(equalToConstant: 50) .isActive = true
     }
     
     func setupLoginRegisterSegmentedControl(){

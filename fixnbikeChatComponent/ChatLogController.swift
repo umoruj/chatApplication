@@ -290,25 +290,32 @@ class ChatLogContoller: UICollectionViewController, UITextFieldDelegate, UIColle
         let toId = user!.id!
         let fromId = FIRAuth.auth()!.currentUser!.uid
         let timeStamp: NSNumber = Int(NSDate().timeIntervalSince1970) as NSNumber
-        let values = ["text" : inputTextField.text!, "toId" : toId, "fromId" : fromId, "timeStamp" : timeStamp] as [String : Any]
-        //childRef.updateChildValues(values)
         
-        childRef.updateChildValues(values) {(errror, ref) in
-            if let error = errror {
-                print(error.localizedDescription)
-                return
+        if(inputTextField.text == ""){
+            print("Did not type text")
+        }else{
+            let values = ["text" : inputTextField.text!, "toId" : toId, "fromId" : fromId, "timeStamp" : timeStamp] as [String : Any]
+            
+            
+            
+            childRef.updateChildValues(values) {(errror, ref) in
+                if let error = errror {
+                    print(error.localizedDescription)
+                    return
+                }
+                
+                self.inputTextField.text = nil
+                
+                let userMessagesRef = FIRDatabase.database().reference().child("user-messages").child(fromId).child(toId)
+                
+                let messagesId = childRef.key
+                userMessagesRef.updateChildValues([messagesId : 1])
+                
+                let recipientUserMessageRef = FIRDatabase.database().reference().child("user-messages").child(toId).child(fromId)
+                recipientUserMessageRef.updateChildValues([messagesId : 1])
             }
-            
-            self.inputTextField.text = nil
-            
-            let userMessagesRef = FIRDatabase.database().reference().child("user-messages").child(fromId).child(toId)
-            
-            let messagesId = childRef.key
-            userMessagesRef.updateChildValues([messagesId : 1])
-            
-            let recipientUserMessageRef = FIRDatabase.database().reference().child("user-messages").child(toId).child(fromId)
-            recipientUserMessageRef.updateChildValues([messagesId : 1])
         }
+
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

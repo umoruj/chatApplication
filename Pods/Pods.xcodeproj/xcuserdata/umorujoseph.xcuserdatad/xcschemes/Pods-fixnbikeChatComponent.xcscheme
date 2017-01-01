@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9881924C32380F38F1C76810D63A7F82"
+               BlueprintIdentifier = "4E64A7BF3018060368ECF50825696E53"
                BuildableName = "Pods_fixnbikeChatComponent.framework"
                BlueprintName = "Pods-fixnbikeChatComponent"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9881924C32380F38F1C76810D63A7F82"
+            BlueprintIdentifier = "4E64A7BF3018060368ECF50825696E53"
             BuildableName = "Pods_fixnbikeChatComponent.framework"
             BlueprintName = "Pods-fixnbikeChatComponent"
             ReferencedContainer = "container:Pods.xcodeproj">
